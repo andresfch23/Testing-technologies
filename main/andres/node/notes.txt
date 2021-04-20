@@ -1,0 +1,18 @@
+NODE.JS
+
+*** BASICS ***
+ 
+- Javascript normally ran in the browser.
+- Node allows to run javascript on the server side , even in the computer.
+- Computers only understand machine code. Above of this is used the assembly language but it still is very complex to read or write , above of this is built a language C++ , is easier to read and write. Javascript abstract even more the language.
+- Javascript runs with V8 engine written in C++ by google and compiles javascript code into machine code at run time.
+- Node.Js is written in C++ and wraps V8 engine -> Server , connect to a database , act as a server for content. 
+
+-> Global Object = global has __dirname , __filename
+
+******** CLIENTS AND SERVERS **********
+
+- Is an address (series of numbers), we use domain name to mask the address. GET request . Communication via browser - server is made via HTTP request
+
+- Localhost (127.0.0.1) domain that points to our own computer.
+- Port numbers are like doors (each one for different programs like outlook , discord ,etc).
