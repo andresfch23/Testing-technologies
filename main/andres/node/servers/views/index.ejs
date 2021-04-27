@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <%- include('./partials/head.ejs') %>
+    <body>
+        <%-  include('./partials/nav.ejs') %>
+
+        <div class="blogs content">
+            <h2>All Characters</h2>
+
+            <%  if (characters.length > 0) { %>
+                <% characters.forEach(character => { %>
+                    <h3 class="title"><%= character.name %></h3>
+                    <p><%= character.description %></p>
+                <% }) %>
+            <%  } else { %>
+                    <p>No characters to show</p>
+            <%  } %>
+        </div>
+        <%- include('./partials/footer.ejs') %>
+    </body>
+</html>
